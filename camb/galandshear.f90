@@ -951,9 +951,9 @@ contains
        OutCls%CSXGal_Cls(:,:,:,:) = Cl_lensing_out(:,:,:,:)
     end if
     Print*, 'Failing'
-    deallocate(CST%ksteps)
-    deallocate(CST%dksteps)
-    deallocate(CST%Delta_p_l_k)
+   !  deallocate(CST%ksteps)
+   !  deallocate(CST%dksteps)
+   !  deallocate(CST%Delta_p_l_k)
 
   end subroutine GetShePowFoCCls
 
