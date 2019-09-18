@@ -49,7 +49,7 @@
     CTransTens = OutData%ClTransTens
 
     call CAMB_GetResults(Params, error)
-
+    Print*, "after CAMB_GetResults"
     OutData%Params = Params
     OutData%MTrans = MT
     MT = emptyMT

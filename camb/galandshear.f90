@@ -950,7 +950,6 @@ contains
        call GetClsfromTransfer(CST,P,1,2)
        OutCls%CSXGal_Cls(:,:,:,:) = Cl_lensing_out(:,:,:,:)
     end if
-    Print*, 'Failing'
    !  deallocate(CST%ksteps)
    !  deallocate(CST%dksteps)
    !  deallocate(CST%Delta_p_l_k)
